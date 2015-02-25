@@ -1,0 +1,34 @@
+
+body {
+  color: darkblue;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: ivory;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+img {
+  display: inline-block;
+  float:left;
+}
+
+/*
+
+
+    The font for all headings should be Oswald.
+    The font for non-heading text should be Open Sans.
+    The font color should be DarkBlue.
+    The top and bottom margins should be 10 px.
+    The left and right margins should be 50 px.
+    The background color should be Ivory.
+    The logos should be inline with the text.
+
+
+*/
