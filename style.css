@@ -1,54 +1,53 @@
-
 body {
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  background-color: black;
+  text-align: left;
+  margin-top: 40px;
+}
+.page-content {
+  margin-top: 100px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald';
+.section-1 {
+  color: gold;
+  background: url('thesesareus.jpg');
+  background-size: cover;
+  padding: 100px;
 }
 
-p {
-  font-family: 'Open Sans';
+.section-1 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: khaki;
+}
+
+.section-2 > h1 {
+  margin: 10px 20px 20px 20px;
+}
+
+.section-2 {
+  background-color: beige;
+  padding: 20px;
+  
+}
+
+.well-color {
+  background-color: khaki;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0;
 }
 
 img {
-  display: inline-block;
   float:left;
 }
 
-#singleColumn {
-  width: 300px;
-  float:left;
+
+.section-3 {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: khaki;
 }
 
-li {
-  display: inline;
-}
 
-/*
-
-
-
-    The introduction section should remain full-width, but the three sections on browsers should appear side-by-side as three columns, each 300px.
-
-    Remove the table of contents header, and instead style the list of section links in a simple horizontal bar (i.e. a “navigation bar”).
-
-
-*/
-
-/*
-
-
-    The font for all headings should be Oswald.
-    The font for non-heading text should be Open Sans.
-    The font color should be DarkBlue.
-    The top and bottom margins should be 10 px.
-    The left and right margins should be 50 px.
-    The background color should be Ivory.
-    The logos should be inline with the text.
-
-
-*/
